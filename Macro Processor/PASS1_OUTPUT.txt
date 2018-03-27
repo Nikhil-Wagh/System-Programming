@@ -1,0 +1,18 @@
+/********* MACRO NAME TABLE *********/
+Index	Name	Address	
+0		INCR		0
+1		DECR		3
+
+/********* MACRO DEFINITION TABLE *********/
+Index	Instruction
+0		LOAD 1 , &ARG
+1		ADD 1 , =F'1'
+2		STORE 1 , &ARG
+3		LOAD 2 , &NUM
+4		SUB 2 , =F'1'
+5		STORE 2 , &NUM
+
+/********* PARAMETER TABLE *********/
+Index	Address	Parameter
+0		0		&AR
+1		1		&NU
