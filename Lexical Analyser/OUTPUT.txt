@@ -1,46 +1,46 @@
-int
-main
-(
-)
-{
-int
-a
-,
-b
-,
-c
-;
-a
-=
-10
-;
-b
-=
-5
-;
-c
-=
-a
-+
-b
-*
-(
-10
-+
-20
-)
-/
-(
-a
-+
-b
-*
-2
-)
-;
-printf
-(
-"Hello \"World\""
-)
-;
-}
+int is a KEYWORD
+main is an IDENTIFIER
+( is an OPERATOR
+) is an OPERATOR
+{ is an OPERATOR
+int is a KEYWORD
+a is an IDENTIFIER
+, is an OPERATOR
+b is an IDENTIFIER
+, is an OPERATOR
+c is an IDENTIFIER
+; is an OPERATOR
+a is an IDENTIFIER
+= is an OPERATOR
+10 is an IDENTIFIER
+; is an OPERATOR
+b is an IDENTIFIER
+= is an OPERATOR
+5 is an IDENTIFIER
+; is an OPERATOR
+c is an IDENTIFIER
+= is an OPERATOR
+a is an IDENTIFIER
++ is an OPERATOR
+b is an IDENTIFIER
+* is an OPERATOR
+( is an OPERATOR
+10 is an IDENTIFIER
++ is an OPERATOR
+20 is an IDENTIFIER
+) is an OPERATOR
+/ is an OPERATOR
+( is an OPERATOR
+a is an IDENTIFIER
++ is an OPERATOR
+b is an IDENTIFIER
+* is an OPERATOR
+2 is an IDENTIFIER
+) is an OPERATOR
+; is an OPERATOR
+printf is an IDENTIFIER
+( is an OPERATOR
+"Hello \"World\"" is an IDENTIFIER
+) is an OPERATOR
+; is an OPERATOR
+} is an OPERATOR
