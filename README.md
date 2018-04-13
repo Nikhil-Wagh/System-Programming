@@ -1,3 +1,3 @@
-System programming assignments given by SPPU 
+#### System Programming assignments given by SPPU 
 
-Information Technology (TE)
+###### **Information Technology (TE)**
