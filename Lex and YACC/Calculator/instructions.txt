@@ -1,4 +1,0 @@
-# Install latest bison first
-lex while.l
-yacc while.y
-gcc y.tab.c -ll -ly

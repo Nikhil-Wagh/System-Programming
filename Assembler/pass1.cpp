@@ -93,7 +93,7 @@ int main(int argc, char const *argv[]) {
 
   freopen("SOURCE_CODE.txt", "r", stdin);
   freopen("PASS1_OUTPUT.txt", "w", stdout);
-
+                    
   string line;
   while(getline(cin, line)){
     istringstream iss(line);

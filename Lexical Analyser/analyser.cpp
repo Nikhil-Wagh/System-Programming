@@ -37,11 +37,13 @@ int main(int argc, char const *argv[])
 	freopen("OUTPUT.txt", "w", stdout);
 	string line;
   	while(getline(cin, line)){
+      
   		int left = 0, right = 0;
   		int length = line.length();
   		if(line.find("//") != string::npos) 
    			length = line.find("//") - 1;
   		bool inQuotes = false;
+
   		while(right < length && left <= right){
   			line.erase(remove(line.begin(), line.end(), '\t'), line.end());
   			if((isDelimiter(line[right]) || line[right] == ' ') && (!inQuotes)){
